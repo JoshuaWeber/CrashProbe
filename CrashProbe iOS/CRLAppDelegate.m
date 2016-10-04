@@ -25,15 +25,11 @@
  */
 
 #import "CRLAppDelegate.h"
-@import SonomaCore;
-@import SonomaAnalytics;
-@import SonomaCrashes;
 
 @implementation CRLAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [SNMSonoma start:@"bfc2c3cb-5b5a-4341-bd1a-02d341ee0b20" withFeatures:@[[SNMAnalytics class],[SNMCrashes class]]];
   return YES;
 }
 
