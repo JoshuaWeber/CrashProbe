@@ -25,9 +25,6 @@
  */
 
 #import "CRLAppDelegate.h"
-@import SonomaCore;
-@import SonomaAnalytics;
-@import SonomaCrashes;
 
 @implementation CRLAppDelegate
 
