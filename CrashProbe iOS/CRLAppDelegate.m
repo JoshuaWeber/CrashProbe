@@ -33,7 +33,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [SNMSonoma start:@"7692a7af-d917-44ed-932f-bb7bdd8d234d" withFeatures:@[[SNMAnalytics class], [SNMCrashes class]]];
+    [SNMSonoma start:@"81534f6b-6c1a-46e8-bfb0-61088e025bd7" withFeatures:@[[SNMAnalytics class], [SNMCrashes class]]];
   return YES;
 }
 
